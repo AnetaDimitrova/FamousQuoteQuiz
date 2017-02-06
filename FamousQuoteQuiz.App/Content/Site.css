@@ -1,6 +1,6 @@
 ﻿body {
     margin-top: 50px !important;
-    max-width: 250px;
+    max-width: 350px;
     padding-bottom: 20px;
     margin: auto;
     border: 2px solid black;
@@ -8,20 +8,18 @@
     overflow: hidden;
 }
 
-/* Set padding to keep content from hitting the edges */
+
 .body-content {
     padding-left: 15px;
     padding-right: 15px;
 }
 
-/* Override the default bootstrap behavior where horizontal description lists 
-   will truncate terms that are too long to fit in the left column 
-*/
+
 .dl-horizontal dt {
     white-space: normal;
 }
 
-/* Set width on the form input elements since they're 100% wide by default */
+
 input,
 select,
 textarea {
@@ -103,7 +101,9 @@ textarea {
 }
 
 .author-name {
-    font-size: 0.9em;
+    padding-top: 5px;
+    margin-top: 5px;
+    font-size: 1em;
 }
 
 .btn-yes {
@@ -148,4 +148,10 @@ textarea {
 #btn_next {
     display: none;
 
+}
+
+#answerName {
+    display: block;
+    font-size: 16px;
+    font-weight: bold;
 }
