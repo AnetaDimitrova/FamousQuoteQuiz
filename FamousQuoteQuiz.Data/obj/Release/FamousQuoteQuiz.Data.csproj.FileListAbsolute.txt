@@ -1,0 +1,16 @@
+C:\Users\PC\Documents\Visual Studio 2015\Projects\FamousQuoteQuiz\FamousQuoteQuiz.Data\bin\Release\FamousQuoteQuiz.Models.dll.config
+C:\Users\PC\Documents\Visual Studio 2015\Projects\FamousQuoteQuiz\FamousQuoteQuiz.Data\bin\Release\FamousQuoteQuiz.Models.dll
+C:\Users\PC\Documents\Visual Studio 2015\Projects\FamousQuoteQuiz\FamousQuoteQuiz.Data\bin\Release\FamousQuoteQuiz.Models.pdb
+C:\Users\PC\Documents\Visual Studio 2015\Projects\FamousQuoteQuiz\FamousQuoteQuiz.Data\bin\Release\EntityFramework.dll
+C:\Users\PC\Documents\Visual Studio 2015\Projects\FamousQuoteQuiz\FamousQuoteQuiz.Data\bin\Release\EntityFramework.SqlServer.dll
+C:\Users\PC\Documents\Visual Studio 2015\Projects\FamousQuoteQuiz\FamousQuoteQuiz.Data\bin\Release\FamousQuoteQuiz.Data.dll
+C:\Users\PC\Documents\Visual Studio 2015\Projects\FamousQuoteQuiz\FamousQuoteQuiz.Data\bin\Release\Microsoft.AspNet.Identity.Core.dll
+C:\Users\PC\Documents\Visual Studio 2015\Projects\FamousQuoteQuiz\FamousQuoteQuiz.Data\bin\Release\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\PC\Documents\Visual Studio 2015\Projects\FamousQuoteQuiz\FamousQuoteQuiz.Data\bin\Release\EntityFramework.xml
+C:\Users\PC\Documents\Visual Studio 2015\Projects\FamousQuoteQuiz\FamousQuoteQuiz.Data\bin\Release\EntityFramework.SqlServer.xml
+C:\Users\PC\Documents\Visual Studio 2015\Projects\FamousQuoteQuiz\FamousQuoteQuiz.Data\bin\Release\FamousQuoteQuiz.Data.pdb
+C:\Users\PC\Documents\Visual Studio 2015\Projects\FamousQuoteQuiz\FamousQuoteQuiz.Data\bin\Release\Microsoft.AspNet.Identity.Core.xml
+C:\Users\PC\Documents\Visual Studio 2015\Projects\FamousQuoteQuiz\FamousQuoteQuiz.Data\bin\Release\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\PC\Documents\Visual Studio 2015\Projects\FamousQuoteQuiz\FamousQuoteQuiz.Data\obj\Release\FamousQuoteQuiz.Data.csprojResolveAssemblyReference.cache
+C:\Users\PC\Documents\Visual Studio 2015\Projects\FamousQuoteQuiz\FamousQuoteQuiz.Data\obj\Release\FamousQuoteQuiz.Models.dll
+C:\Users\PC\Documents\Visual Studio 2015\Projects\FamousQuoteQuiz\FamousQuoteQuiz.Data\obj\Release\FamousQuoteQuiz.Models.pdb

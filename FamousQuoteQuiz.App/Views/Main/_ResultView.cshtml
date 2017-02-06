@@ -1,0 +1,15 @@
+﻿@model System.Tuple<string,bool>
+
+
+<div>
+
+@if (Model.Item2)
+{
+    <span>Correct! </span>
+}
+else
+{
+    <span>Sorry, you are wrong! </span>
+}
+<span>The right answer is: @Model.Item1</span>
+</div>

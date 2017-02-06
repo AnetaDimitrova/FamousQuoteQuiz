@@ -1,0 +1,36 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Famous Quote Quiz</title>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+</head>
+<body>
+    @{
+        var controller = ViewContext.RouteData.Values["Controller"].ToString();
+    }
+    <div class="navbar navbar-inverse navbar-static-top">
+        <div class="row">
+            <div class="col-xs-6 text-center btn-page-wrapper">
+                <a href="@Url.Action("Index", "Main")" class='btn btn-lg btn-pages  @(controller == "Main" ? "page-active" : "")' title="Quiz">
+                    <span class="glyphicon glyphicon-list-alt" />
+                </a>
+            </div>
+            <div class="col-xs-6 text-center btn-page-wrapper">
+                <a href="@Url.Action("Index", "Settings")" class='btn btn-lg btn-pages @(controller == "Settings" ? "page-active" : "")' title="Settings">
+                    <span class="glyphicon glyphicon-th" />
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="p10">
+        @RenderBody()
+    </div>
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @Scripts.Render("~/bundles/application")
+    @RenderSection("scripts", required: false)
+</body>
+</html>

@@ -1,0 +1,151 @@
+﻿body {
+    margin-top: 50px !important;
+    max-width: 250px;
+    padding-bottom: 20px;
+    margin: auto;
+    border: 2px solid black;
+    font-size: 16px;
+    overflow: hidden;
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+.hidden_el {
+    display: none;
+}
+
+.gray-label {
+    color: gray;
+    opacity: 0.9;
+}
+
+.content {
+    background-color: #FF048C;
+    border-radius: 5px;
+    padding: 15px 5px;
+    margin-bottom: 10px;
+    color: white;
+}
+
+.mt30 {
+    margin-top: 30px;
+}
+
+.mb10 {
+    margin-bottom: 10px;
+}
+
+.mb30 {
+    margin-bottom: 30px;
+}
+
+.p10 {
+    padding: 10px !important;
+}
+
+.pl10 {
+    padding-left: 10px;
+}
+
+.authors-wrapper {
+    font-size: 13px;
+    background-color: gray;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    padding-left: 5px;
+}
+
+.authors {
+    color: white;
+    cursor: pointer;
+}
+
+    .authors:hover {
+        text-decoration: none;
+        color: black;
+    }
+
+#authors_container {
+    max-width: 80%;
+    margin: auto;
+}
+
+#result {
+    display: none;
+    max-width: 85%;
+    margin: auto;
+    border: 1px solid gray;
+    text-align: center;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.btn-wrapper {
+    text-align: right;
+}
+
+.author-name {
+    font-size: 0.9em;
+}
+
+.btn-yes {
+    font-size: 1em;
+    color: white;
+    background-color: #6BA231;
+}
+
+.btn-no {
+    font-size: 1em;
+    color: white;
+    background-color: #FF0442;
+}
+
+.navbar {
+    margin-bottom: 0px !important;
+    background-color: #191919 !important;
+}
+
+.btn-pages {
+    display: block;
+    color: #C4C7C4;
+    border-radius: 0;
+}
+
+    .btn-pages:hover {
+        color: white;
+    }
+
+.btn-page-wrapper {
+    padding: 0;
+}
+
+.row {
+    margin: 0;
+}
+
+.page-active {
+    background-color: #898689;
+}
+
+#btn_next {
+    display: none;
+
+}

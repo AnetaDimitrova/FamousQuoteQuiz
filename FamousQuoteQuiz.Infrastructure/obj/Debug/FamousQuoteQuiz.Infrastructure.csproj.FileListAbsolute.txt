@@ -1,0 +1,7 @@
+C:\Users\PC\Documents\Visual Studio 2015\Projects\FamousQuoteQuiz\FamousQuoteQuiz.Infrastructure\bin\Debug\FamousQuoteQuiz.Infrastructure.dll
+C:\Users\PC\Documents\Visual Studio 2015\Projects\FamousQuoteQuiz\FamousQuoteQuiz.Infrastructure\bin\Debug\FamousQuoteQuiz.Infrastructure.pdb
+C:\Users\PC\Documents\Visual Studio 2015\Projects\FamousQuoteQuiz\FamousQuoteQuiz.Infrastructure\bin\Debug\AutoMapper.dll
+C:\Users\PC\Documents\Visual Studio 2015\Projects\FamousQuoteQuiz\FamousQuoteQuiz.Infrastructure\bin\Debug\AutoMapper.xml
+C:\Users\PC\Documents\Visual Studio 2015\Projects\FamousQuoteQuiz\FamousQuoteQuiz.Infrastructure\obj\Debug\FamousQuoteQuiz.Infrastructure.csprojResolveAssemblyReference.cache
+C:\Users\PC\Documents\Visual Studio 2015\Projects\FamousQuoteQuiz\FamousQuoteQuiz.Infrastructure\obj\Debug\FamousQuoteQuiz.Infrastructure.dll
+C:\Users\PC\Documents\Visual Studio 2015\Projects\FamousQuoteQuiz\FamousQuoteQuiz.Infrastructure\obj\Debug\FamousQuoteQuiz.Infrastructure.pdb

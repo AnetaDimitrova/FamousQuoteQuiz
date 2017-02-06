@@ -1,0 +1,51 @@
+﻿
+@using FamousQuoteQuiz.App.ViewModels
+@model FamousQuoteQuiz.App.ViewModels.MainViewModels
+
+<div>
+    <div class="gray-label mb10">Who Said It?</div>
+        @foreach (var m in Model.Quotes)
+        {
+            <div class="content" id="@m.AuthorId">
+               
+
+                "@m.Content"
+
+            </div>
+        }
+    
+     <div id="authors_container">
+        @foreach (var m in Model.Authors)
+        {
+            if (IsBinaryMode.BinaryMode)
+            {
+                <div class="text-center mb30 author-name " id="@m.Id">
+                    @m.Name?
+                </div>
+            }
+            else
+            {
+                <div class="authors-wrapper  mb30 author-name" >
+                    <a class="authors"  id="@m.Id"> -> @m.Name</a>
+                </div>
+            }
+        }
+    </div>
+  
+    @if (IsBinaryMode.BinaryMode)
+    {
+        <div class="row">
+            <div class="col-sm-3 btn btn-xs btn_binMode btn-yes" id="answer-true">Yes</div>
+            <div class="col-sm-offset-6 col-sm-3 btn btn-xs btn_binMode btn-no" id="answer-false">No</div>
+        </div>
+    }
+
+    
+    <div id="result"></div>
+    <div class="btn-wrapper">
+    @Html.ActionLink("Next", "Index", null, new { @class = "hidden_el btn btn-info", @id = "btn_next" })
+
+</div>
+</div>  
+       
+ 
