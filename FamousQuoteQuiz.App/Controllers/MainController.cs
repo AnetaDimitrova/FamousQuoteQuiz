@@ -29,31 +29,43 @@ namespace FamousQuoteQuiz.App.Controllers
             IEnumerable<AuthorViewModels> author;
             var quote = this.Data.Quotes.All().OrderBy(x => Guid.NewGuid()).ProjectTo<QuoteViewModels>().ToList().Take(1);
 
+            int id =0;
+            foreach (var q in quote)
+            {
+                id = q.AuthorId;
+            }                                                                                                                                                                                                                                         
 
             var authorIds = this.Data.Authors
                 .All()
                 .Select(a => a.Id)
                 .ToList();
 
+           
+
             if (IsBinaryMode.BinaryMode)
             {
-                author = this.Data.Authors.All()
-                .ProjectTo<AuthorViewModels>()
-                .ToList()
-                .OrderBy(a => a.Name).Take(1); ;
+                author = this.Data.Authors.All().Where(a => authorIds.Contains(a.Id))
+                    .ProjectTo<AuthorViewModels>()
+                    .ToList().OrderBy(x => Guid.NewGuid()).Take(1);
             }
             else
             {
-                author = this.Data.Authors.All().Where(a => authorIds.Contains(a.Id))
-                .ProjectTo<AuthorViewModels>()
-                .ToList()
-                .OrderBy(a => a.Name).Take(4); ;
+                author = this.Data.Authors.All().Where(a => authorIds.Contains(a.Id) && a.Id != id)
+                    .ProjectTo<AuthorViewModels>()
+                    .ToList().OrderBy(x => Guid.NewGuid()).Take(3);
+
+                var quoteAuthorId = this.Data.Authors.All().Where(a => authorIds.Contains(a.Id) && a.Id == id)
+                    .ProjectTo<AuthorViewModels>().ToList().OrderBy(x => Guid.NewGuid());
+                    
+
+
+              author = author.Concat(quoteAuthorId).OrderBy(x => Guid.NewGuid());
             }
 
-            
 
 
-  
+           
+
             model.Authors = author;
             model.Quotes = quote;
 

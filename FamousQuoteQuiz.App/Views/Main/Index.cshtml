@@ -1,20 +1,22 @@
 ﻿
+
 @using FamousQuoteQuiz.App.ViewModels
 @model FamousQuoteQuiz.App.ViewModels.MainViewModels
 
 <div>
+
     <div class="gray-label mb10">Who Said It?</div>
-        @foreach (var m in Model.Quotes)
-        {
-            <div class="content" id="@m.AuthorId">
-               
+    @foreach (var m in Model.Quotes)
+    {
+        <div class="content" id="@m.AuthorId">
 
-                "@m.Content"
 
-            </div>
-        }
-    
-     <div id="authors_container">
+            "@m.Content"
+
+        </div>
+    }
+
+    <div id="authors_container">
         @foreach (var m in Model.Authors)
         {
             if (IsBinaryMode.BinaryMode)
@@ -25,13 +27,13 @@
             }
             else
             {
-                <div class="authors-wrapper  mb30 author-name" >
-                    <a class="authors"  id="@m.Id"> -> @m.Name</a>
+                <div class="authors-wrapper  mb30 author-name">
+                    <a class="authors" id="@m.Id"> -> @m.Name</a>
                 </div>
             }
         }
     </div>
-  
+
     @if (IsBinaryMode.BinaryMode)
     {
         <div class="row">
@@ -40,12 +42,12 @@
         </div>
     }
 
-    
+
     <div id="result"></div>
     <div class="btn-wrapper">
-    @Html.ActionLink("Next", "Index", null, new { @class = "hidden_el btn btn-info", @id = "btn_next" })
+        @Html.ActionLink("Next", "Index", null, new {@class = "hidden_el btn btn-info", @id = "btn_next"})
 
-</div>
+    </div>
 </div>  
        
  
