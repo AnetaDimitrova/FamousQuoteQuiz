@@ -52,7 +52,7 @@ namespace FamousQuoteQuiz.App.Controllers
             {
                 author = this.Data.Authors.All().Where(a => authorIds.Contains(a.Id) && a.Id != id)
                     .ProjectTo<AuthorViewModels>()
-                    .ToList().OrderBy(x => Guid.NewGuid()).Take(3);
+                    .ToList().OrderBy(x => Guid.NewGuid()).Take(2);
 
                 var quoteAuthorId = this.Data.Authors.All().Where(a => authorIds.Contains(a.Id) && a.Id == id)
                     .ProjectTo<AuthorViewModels>().ToList().OrderBy(x => Guid.NewGuid());
